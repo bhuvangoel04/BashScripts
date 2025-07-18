@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # ==============================================================================
-# Daily Git Sync for Strapi
+# Daily Git Sync for Project
 #
 # Description:
-# This script automates the process of syncing a Strapi project with a Git
+# This script automates the process of syncing a project with a Git
 # repository. It performs the following actions daily:
 # 1. Navigates to the specified Strapi project directory.
 # 2. Pulls the latest changes from the remote repository to prevent conflicts.
@@ -19,8 +19,8 @@
 # !!! IMPORTANT: UPDATE THESE VARIABLES !!!
 
 # The absolute path to your Strapi project's root directory.
-# Example: PROJECT_DIR="/var/www/my-strapi-project"
-PROJECT_DIR="/path/to/your/strapi/project"
+# Example: PROJECT_DIR="/var/www/my-project"
+PROJECT_DIR="/path/to/your/project"
 
 # The name of the branch you want to sync.
 # Example: GIT_BRANCH="main" or GIT_BRANCH="master"
